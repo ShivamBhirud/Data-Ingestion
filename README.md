@@ -1,20 +1,20 @@
 # A. Steps to run the code
 1. (Required) Clone the project to local 
 2. (Optional) Enable your virtual environment
-3. (Required) $ pip install -r requirements.txt 
+3. (Required) `$ pip install -r requirements.txt`
 4. (Required) To Run the project- \ 
-    $ python etl.py
+    `$ python etl.py`
 
 # Details of all the tables and their schema
 We are using a sqlite3 database (products.sqlite)
 1. Table 1: "PRODUCTS" \
     columns: ID, NAME, SKU, DESCRIPTION
     Table is created if not exists using the same python script.
-    SQL Query Used: CREATE table IF NOT EXISTS products (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, sku TEXT, description TEXT)
+    SQL Query Used: `CREATE table IF NOT EXISTS products (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, sku TEXT, description TEXT)`
 2. Table 2: "AGGREGATE" \
     columns: NAME, NO_OF_PRODUCTS
     Table is created if not exists using the same python script.
-    SQL Query Used: CREATE table IF NOT EXISTS aggregate as select name, count(*) as 'no_of_products' from products GROUP BY sku"
+    SQL Query Used: `CREATE table IF NOT EXISTS aggregate as select name, count(*) as 'no_of_products' from products GROUP BY sku"`
 
 
 # Points to achieve
