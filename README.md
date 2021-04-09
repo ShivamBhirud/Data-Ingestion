@@ -1,4 +1,5 @@
 # A. Steps to run the code
+Latest version of Python (3.*) should be installed on your system. It comes with pip installed by default. Then follow below steps:
 1. (Required) Clone the project to local 
 2. (Optional) Enable your virtual environment
 3. (Required) `$ pip install -r requirements.txt`
