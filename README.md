@@ -5,6 +5,9 @@
 4. (Required) To Run the project- 
     `$ python etl.py`
 
+Now, you may download sqlite DB browser to see the data in the products.sqlite DB.
+https://sqlitebrowser.org/dl/
+
 # Details of all the tables and their schema
 We are using a sqlite3 database (products.sqlite)
 1. Table 1: "PRODUCTS" \
