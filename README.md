@@ -39,7 +39,7 @@ kind of data in the file. You need to find a workaround for it) \
 5. An aggregated table on above rows with `name` and `no. of products` as the columns \
    -> Aggregate table is also created into the DB based on a group by on `sku`.
 
-# Points to achieve
+# Not done from "Points to achieve"
 I've tried to achieve every thing given in the points to achieve section.
 
 # What would you improve if given more days
