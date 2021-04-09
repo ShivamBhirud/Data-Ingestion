@@ -2,7 +2,7 @@
 1. (Required) Clone the project to local 
 2. (Optional) Enable your virtual environment
 3. (Required) `$ pip install -r requirements.txt`
-4. (Required) To Run the project- \ 
+4. (Required) To Run the project- 
     `$ python etl.py`
 
 # Details of all the tables and their schema
