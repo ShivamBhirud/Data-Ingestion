@@ -39,8 +39,5 @@ kind of data in the file. You need to find a workaround for it) \
 5. An aggregated table on above rows with `name` and `no. of products` as the columns \
    -> Aggregate table is also created into the DB based on a group by on `sku`.
 
-# Not done from "Points to achieve"
-I've tried to achieve every thing given in the points to achieve section.
-
 # What would you improve if given more days
 I'd wish to do this using ETL tools like Informatica or Apache NiFi. But, the data filtering or advance validations can be done on the server end before we ingest the flat file data into a DB.
